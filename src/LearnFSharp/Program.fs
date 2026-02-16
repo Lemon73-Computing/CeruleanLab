@@ -9,6 +9,16 @@ printfn $"{myAge}"
 
 let pi: float = 3.14
 
+let add10 x = x + 10
+let multiply2 x = x * 2
+
+let mynumber =
+    20
+    |> add10
+    |> multiply2
+
+printfn $"{mynumber}"
+
 [<EntryPoint>]
 let main argv =
     let number =
